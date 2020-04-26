@@ -1,5 +1,5 @@
 const isRightTriangle = (a, b, c) => {
-  if (a == b && b == c) {
+  if (a < 1 || b < 1 || c < 1) {
     return false;
   }
   const s = [a, b, c].sort();
